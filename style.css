@@ -1,0 +1,223 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    height: 2000px;
+    width: 85%;
+}
+
+#menu{
+    background-color: rgb(0, 0, 0);
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#a1{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.barra{
+    text-decoration: none;
+    color: white;
+}
+
+.barra:hover{
+    background-color: rgb(63, 71, 71);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.entrada{
+    width: 20%;
+    text-align: center;
+    border-left: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#a2{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inicia,.registra{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.inicia{
+    background-color: white;
+}
+
+.inicia:hover{
+    background-color: rgb(16, 16, 20);
+    color: white;
+}
+
+.registra{
+    color: white;
+    background-color: rgb(16, 16, 20);
+}
+
+.registra:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#cuerpo{
+    background-color: rgb(16, 16, 20);
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 40%;
+    height: 720px;
+}
+
+.semaforo{filter:grayscale(20%);}
+.box2{
+    background-image: url(img/ciudad.jpg);
+    background-size: cover;
+}
+
+h1{
+    color:rgb(182, 101, 233);
+    text-align: center;
+    padding:15px;
+    font-size: xxx-large;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+h2{
+    padding: 5px;
+    text-align: center;
+    font-family: Inter Tight;
+    color: white;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+p{
+    color: white;
+    font-family: Inter Tight;
+    font-size: 30px;
+    text-align: center;
+    line-height: 58px;
+    font-style: italic;
+}
+
+.box3{
+    background: url(img/fondo\ 2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box4{
+    background-image: url(img/fondo4.jpeg);
+}
+
+
+
+#pie{
+    background-color: black;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#mini{
+    height: 35%;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    background-color: black;
+    height: 64px;
+    width: 64px;
+}
+
+#redes{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carcel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copy,.link{
+    height: 40%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Inter;
+    color: rgb(230, 230, 234);
+    letter-spacing: 0.28px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    font-size:15px;
+    font-family: Inter;
+    letter-spacing: 0.24px;
+    font-style: normal;
+    color: rgb(170, 170, 174);
+}
+
+
+.derecho{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
